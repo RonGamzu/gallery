@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/myStyle.css">
+    <title>Touch the Numbers</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <h1>Touch The Nums!</h1>
+        </header>
+        <div class="levels-btn">
+            <button onclick="changeLevel(4)">Eazy(4*4)</button>
+            <button onclick="changeLevel(5)">Hurd(5*5)</button>
+            <button onclick="changeLevel(6)">Extreme!(6*6)</button>
+        </div>
+        <h1 class="time">Time is:
+            <span class="time-place"></span>
+        </h1>
+
+        <div class="table-wrapper">
+            
+            <table border="2px" width="400" height="250">
+                <tbody class="tbl-nums">
+                    
+                </tbody>
+            </table>
+            
+        </div>
+    </div>
+    <img class= "logo" src="img/playGame.png" height="300px" width="300px">
+
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
