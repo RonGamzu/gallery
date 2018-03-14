@@ -6,7 +6,7 @@ var gProjs = [
         "name": "touch-nums",
         "title": "touch as fast as you can",
         "desc": "lorem ipsum lorem ipsum lorem ipsum",
-        "url": "projs/touch-nums",
+        "url": "projs/touch-nums/index.html",
         "publishedAt": 1448693940000,
         "labels": ["Matrixes", "keyboard events"],
     },
@@ -16,7 +16,7 @@ var gProjs = [
         "name": "chess",
         "title": "do you smart enough?",
         "desc": "lorem ipsum lorem ipsum lorem ipsum",
-        "url": "projs/chess",
+        "url": "projs/chess/chess.html",
         "publishedAt": 1448693940000,
         "labels": ["Matrixes", "keyboard events"],
     },
@@ -24,9 +24,19 @@ var gProjs = [
     {
         "id": "memoryLogos-startHere",
         "name": "memoryLogos-startHere",
-        "title": "do you smart enough?",
+        "title": "Do you smart enough?",
         "desc": "lorem ipsum lorem ipsum lorem ipsum",
-        "url": "projs/chess",
+        "url": "projs/memoryLogos-startHere/game.html",
+        "publishedAt": 1448693940000,
+        "labels": ["Matrixes", "keyboard events"],
+    },
+
+    {
+        "id": "book-shop",
+        "name": "book-shop",
+        "title": "Want to read?",
+        "desc": "lorem ipsum lorem ipsum lorem ipsum",
+        "url": "projs/book-shop/index.html",
         "publishedAt": 1448693940000,
         "labels": ["Matrixes", "keyboard events"],
     }
@@ -69,6 +79,7 @@ function renderProjs(projs) {
                 <h2>Project Name</h2>
                 <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
                 <img class="img-fluid d-block mx-auto" src="img/portfolio/port${idx + 1}.jpg" alt="">
+                <p>${proj.desc} <a href="${proj.url}" target="_blank">Play game</a></p>
                 <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis
                   dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate,
                   maiores repudiandae, nostrum, reiciendis facere nemo!</p>

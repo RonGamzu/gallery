@@ -1,0 +1,17 @@
+header {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 1px 0px black;
+    background-color: rgba(0, 123, 255, 0.5);
+}
+
+.tbl{
+    background-color: burlywood;
+    font-size: 20px;
+    
+}
+
+.name, .price, span {
+    font-size: 20px;
+}
